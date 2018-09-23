@@ -1,0 +1,6 @@
+create table toto (
+ID NUMBER PRIMARY KEY,
+CREATION_DATE DATE,
+LABEL VARCHAR2
+
+)

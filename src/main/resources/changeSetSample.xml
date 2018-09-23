@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <changeSet author="liquibase-docs" id="$fileName">
-    <sqlFile dbms="oracle"
-            encoding="utf8"
-            path="$filePath"
-            runOnChange="true"
-            relativeToChangelogFile="true"
-            splitStatements="$splitStatements"
-            stripComments="true"/>
+
+    <sqlFile dbms="oracle" encoding="utf8" path="$filePath" runOnChange="true" relativeToChangelogFile="true" splitStatements="$splitStatements" stripComments="true"/>
+
 </changeSet>
